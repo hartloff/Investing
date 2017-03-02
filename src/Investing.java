@@ -144,8 +144,7 @@ public class Investing {
                                                    HashMap<String, String> tickerFilenames) {
 
         // Compute the optimal trading that would maximize ROI over the year with the given starting cash. You must
-        // never buy more shares of a stock than you can afford or the trade is invalid. If you buy and sell shares on
-        // the same day you can assume all the sells are executed before any of the buys. Write all trades to the
+        // never buy more shares of a stock than you can afford or the trade is invalid. Write all trades to the
         // output file in the same format as the given trading files.
         //
         // Your algorithm must work for any stocks given in tickerFilenames which won't necessarily be the three used
@@ -160,7 +159,7 @@ public class Investing {
 
 
     // The following testing code is to provided to help you get started testing your code. Provided are
-    // methods to test getPrice and getTradePrice along with sample calls to test getPrice.
+    // methods to test getPrice and getTradePrice along with a sample call to getTraderROI.
     //
     // *You are encouraged to write similar testing code for the rest of the assignment
 
@@ -193,6 +192,8 @@ public class Investing {
         confirmedPrice = 705.23999;
         testGetPrice(priceFile, date, confirmedPrice);
 
+        
+        
         priceFile = "historicPrices/MSFT_2016.csv";
         date = "2016-10-11";
         String buyOrSell = "sell";
