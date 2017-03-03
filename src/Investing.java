@@ -64,8 +64,6 @@ public class Investing {
      *
      * 1. The trader buys more shares of a stock than can be afforded with their current cash
      * 2. The trader sells more shares of a stock than they own
-     * 3. The date of the trade was not a valid trading day, or not a date in 2016 (any day not in the given files)
-     * 4. There is no data for the ticker symbol of the trade (not AAPL, GOOG, or MSFT)
      *
      * @param traderFileName  The name of a file containing all the trades made by a trader throughout the year
      * @param startingCash    The amount of cash the trader has available at the start of the year
