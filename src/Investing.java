@@ -24,6 +24,9 @@ public class Investing {
      * values "date,price,volume" in the format "2016-03-23,106.129997,25703500" where the data is YYYY-MM-DD, the price
      * is given in USD and the volume is the number of shares traded throughout the day.
      *
+     * Note: You don't have to interpret dates for this assignment and you can use the Sting's .equals method to 
+     * compare dates whenever date comparisons are needed.
+     * 
      * @param stockFileName The filename containing the prices for a stock for each day in 2016
      * @param date          The date to lookup given in YYYY-MM-DD format
      * @return The price of the stock represented in stockFileName on the given date
