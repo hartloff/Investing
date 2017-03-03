@@ -151,7 +151,7 @@ public class Investing {
         // Your algorithm must work for any stocks given in tickerFilenames which won't necessarily be the three used
         // for the assignment. You can assume the trading days will be the same (all of 2016).
         //
-        // Points are all-or-nothing. Even a single penny short of optimal trading will result in 0 points.
+        // Points are all-or-nothing.
         //
         // Note: This is a true challenge!
 
